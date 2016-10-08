@@ -5,5 +5,25 @@ body {
 header {
   color: white;
   background-color: black;
-  
+  height: 80px;
+  /*display:inline-block;*/
+}
+
+header h1 {
+  float: left;
+  margin-left: 25px;
+
+}
+
+nav a {
+  float: right;
+  margin-right: 50px;
+  margin-top: 30px;
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+
+nav a:hover {
+  transform: scale(1.2,1.2);
 }
