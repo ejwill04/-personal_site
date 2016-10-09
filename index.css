@@ -3,6 +3,8 @@ body {
 }
 
 header {
+  /*position: fixed;
+  width: 100%;*/
   color: white;
   background-color: black;
   height: 120px;
@@ -63,6 +65,21 @@ nav a:hover {
   height: 400px;
 }
 
+.projects p {
+  /*text-align: center;*/
+}
+
+.projects a {
+  text-decoration: none;
+  color: black;
+}
+
+.projects a:hover {
+  cursor: pointer;
+  color: blue;
+  font-weight: bold;
+}
+
 b {
   font-size: 20px;
 }
@@ -81,6 +98,20 @@ b {
   margin-left: auto;
   margin-right: auto;
   padding: 10px;
+}
+
+.experience {
+  list-style: none;
+  text-align: center;
+  padding: 10px;
+}
+
+.experience img {
+  width: 150px;
+  height: 100px;
+  height: auto;
+  filter: grayscale(1.0);
+  margin-bottom: -30px;
 }
 
 #contact {
