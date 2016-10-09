@@ -34,7 +34,7 @@ nav a:hover {
 }
 
 #home {
-  background: url('../Personal Website Photo') no-repeat;
+  background: url('images/headshot') no-repeat;
   width: auto;
   height: 600px;
   background-size: cover;
