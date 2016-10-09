@@ -50,6 +50,10 @@ nav a:hover {
   padding: 50px;
 }
 
+#projects {
+  text-align: center;
+}
+
 .projects {
   width: 47%;
   display: inline-block;
@@ -104,6 +108,7 @@ b {
   list-style: none;
   text-align: center;
   padding: 10px;
+  /*display: block;*/
 }
 
 .experience img {
