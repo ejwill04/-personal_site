@@ -6,6 +6,7 @@ header {
   color: white;
   background-color: black;
   height: 120px;
+  margin: 0 20px;
   text-align: center;
   /*display:inline-block;*/
 }
@@ -29,7 +30,7 @@ nav a {
 
 nav a:hover {
   transform: scale(1.2);
-  transition-duration: 1;
+  transition-duration: 0.05s;
 }
 
 #home {
@@ -53,12 +54,17 @@ nav a:hover {
   vertical-align: middle;
   text-align: center;
   margin: 18px;
-  min-width: 500px;
+  min-width: 600px;
+  line-height: 1.4;
 }
 
 .projects img{
   width: 600px;
   height: 400px;
+}
+
+b {
+  font-size: 20px;
 }
 
  #projectTitle, section h2, footer h2  {
@@ -96,4 +102,5 @@ nav a:hover {
 #contact ul li img:hover {
   cursor: pointer;
   transform: scale(1.2, 1.2);
+  transition-duration: 0.25s;
 }
