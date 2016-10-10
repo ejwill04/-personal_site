@@ -120,19 +120,15 @@ b {
 }
 
 #contact {
-  margin: 100px 0;
   text-align: center;
 }
 
-#contact ul {
-  /*margin: 5px;*/
-}
 
 #contact ul li {
   display: inline-block;
-  margin: 10px 25px;
+  margin: 10px;
+  padding-right: 50px;
   width: 100px;
-  margin-bottom: 10px;
 }
 
 #contact ul li img:hover {
