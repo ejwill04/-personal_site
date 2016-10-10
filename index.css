@@ -57,8 +57,8 @@ nav a:hover {
 .projects {
   width: 47%;
   display: inline-block;
-  vertical-align: middle;
-  text-align: center;
+  /*vertical-align: middle;*/
+  /*text-align: center;*/
   margin: 18px;
   min-width: 600px;
   line-height: 1.4;
